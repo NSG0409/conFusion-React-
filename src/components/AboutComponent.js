@@ -20,13 +20,13 @@ function RenderLeader({leader}){
 
 
 function About({leaders}) {
-       const leader = leaders.map((leader)=>{
+       /*const leader = leaders.map((leader)=>{
            return(
                <div key={leader.id} className="col-12">
                    <RenderLeader leader={leader}/>
                </div>
            );
-       })
+       })*/
         
     
 
@@ -86,7 +86,7 @@ function About({leaders}) {
                 </div>
                 <div className="col-12">
                     <Media list>
-                        {leader}
+                        {/*leader*/}
                     </Media>
                 </div>
                 
